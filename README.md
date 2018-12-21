@@ -23,5 +23,3 @@ Furthermore, financial theory suggests that prediction models will perform bette
 First, I divided the lags into 4 windows, t to t-7, t-5 to t-12, t-8 to t-15 and t-13 to t-20. Then, I used these variables to predict the return at t+1 using  logistic regression models. 
 
 Each of these models gave a prediction for the returns at t+1. I averaged the predictions, and if the average was >= 0.5, I would classify that as the stock returns being positive and negative otherwise.
-
-Based on a train-test split analysis, this model yielded a better error rate than all the other models that I had fit. Although not very good, only 46.47% of the predictions were wrong, an improvement from the next best model that had 48.2% wrong predictions.
