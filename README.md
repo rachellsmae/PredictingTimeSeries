@@ -1,4 +1,4 @@
-# What's Next?
+# Predicting Time Series
 The final project of my Foundations of Data Science course was to predict the movement of stock returns. I applied ensemble methods to build models that (1) predict stock returns and (2) predict the movement of the stock.
 
 ## Regression Models (Predict Stock Returns)
